@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 55px;
+  background-color: black;
+}
+
+main{
+  height: calc(100vh - 120px);
+  overflow: auto;
+}
+
+footer{
+  height: 70px;
+  background-color: #222222;
+}
