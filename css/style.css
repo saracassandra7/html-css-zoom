@@ -1,19 +1,49 @@
+/*generali*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
 header{
   height: 55px;
   background-color: black;
+  position: relative;
 }
 
+header .speaker-button{
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+header .speaker-button span{
+  margin-left: 10px;
+  background-color: #4A4A4A;
+  padding: 5px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+header .speaker-button span:hover{
+  background-color: #707070;
+}
+
+/*main*/
 main{
   height: calc(100vh - 120px);
   overflow: auto;
 }
 
+/*footer*/
 footer{
   height: 70px;
   background-color: #222222;
